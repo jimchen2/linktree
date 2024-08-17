@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <div className="bg-white bg-opacity-90 rounded-lg shadow-2xl p-8 max-w-4xl w-full">
+        <div className="bg-white bg-opacity-90 rounded-lg shadow-2xl p-8 w-full">
           <Profile />
           <LinkTree links={links} />
         </div>

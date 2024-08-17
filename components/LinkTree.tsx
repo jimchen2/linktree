@@ -13,7 +13,7 @@ export default function LinkTree({ links }: LinkTreeProps) {
         Jim Chen's LinkTree
       </h2>
       <br />
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
         {Object.entries(
           links.reduce((acc, link) => {
             if (!acc[link.category]) acc[link.category] = [];
@@ -22,7 +22,7 @@ export default function LinkTree({ links }: LinkTreeProps) {
           }, {} as Record<string, LinkType[]>)
         ).map(([category, categoryLinks]) => (
           <div key={category}>
-            <h2 className="text-2xl font-normal font-handwriting mb-2 text-center">
+            <h2 className="text-2xl font-norma mb-2 text-center">
               {category}
             </h2>
             {categoryLinks.map((link) => (
