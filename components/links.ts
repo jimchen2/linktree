@@ -5,7 +5,7 @@ export const links: Link[] = [
   { name: "Markdown Parser", icon: "nextjs.png", url: "https://markdown.jimchen.me", category: "Apps" },
   { name: "Git Server", icon: "gitea.png", url: "https://git.jimchen.me", category: "Apps" },
   { name: "Server Status", icon: "grafana.png", url: "https://grafana.jimchen.me/public-dashboards/b6c9b0826c0b4af6b7bd4324618c5b95", category: "Apps" },
-  { name: "AWS Mail", icon: "aws.svg", url: "mailto:info@jimchen.me", category: "Social" },
+  { name: "Mail", icon: "gmail.svg", url: "mailto:jimchen4214@gmail.com", category: "Social" },
   { name: "WeChat", icon: "wechat.svg", url: "./qr_code/wechat.jpeg", isQR: true, category: "Social" },
   { name: "QQ", icon: "tencentqq.svg", url: "./qr_code/qq.jpg", isQR: true, category: "Social" },
   { name: "RSS Feed", icon: "rss.svg", url: "https://jimchen.me/api/rss", category: "Social" },
